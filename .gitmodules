@@ -1,0 +1,24 @@
+[submodule "third-party/auto-pairs"]
+	path = third-party/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "third-party/syntastic"]
+	path = third-party/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "third-party/tabular"]
+	path = third-party/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "third-party/supertab"]
+	path = third-party/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "third-party/vim-go"]
+	path = third-party/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "third-party/vim-pathogen"]
+	path = third-party/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git
+[submodule "third-party/lightline"]
+	path = third-party/lightline
+	url = https://github.com/itchyny/lightline.vim.git
+[submodule "third-party/nginx"]
+	path = third-party/nginx
+	url = https://github.com/chr4/nginx.vim.git
