@@ -22,3 +22,9 @@
 [submodule "third-party/nginx"]
 	path = third-party/nginx
 	url = https://github.com/chr4/nginx.vim.git
+[submodule "third-party/ctrlp"]
+	path = third-party/ctrlp
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "third-party/fencview"]
+	path = third-party/fencview
+	url = https://github.com/mbbill/fencview.git
