@@ -1,6 +1,7 @@
 set runtimepath+=~/.vim
 
-source ~/.vim/init.vim
+source ~/.vim/basic.vim
+source ~/.vim/plugins.vim
 
 try
     source ~/.vim/local.vim

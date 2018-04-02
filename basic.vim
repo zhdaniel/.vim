@@ -350,10 +350,3 @@ function! <SID>BufcloseCloseIt()
    endif
 endfunction
 
-""""""""""""""""""""""""""""""
-" => Load pathogen paths
-""""""""""""""""""""""""""""""
-execute pathogen#infect()
-call pathogen#infect('~/.vim/third-party/{}')
-call pathogen#helptags()
-
