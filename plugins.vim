@@ -34,7 +34,7 @@ call pathogen#helptags()
 "      \ }
 
 """"""""""""""""""""""""""""""
-" => CTRL-P
+" => ctrlp
 """"""""""""""""""""""""""""""
 let g:ctrlp_working_path_mode = 0
 
@@ -55,8 +55,12 @@ set statusline+=%*
 let g:syntastic_enable_signs = 0
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 
 let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 let g:syntastic_go_checkers = ['go', 'golint']
+
+"let g:syntastic_cpp_compiler = 'clang++'
+"let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libc++'
+"let g:syntastic_c_include_dirs = ['$HOME/local/boost/include']

@@ -350,3 +350,6 @@ function! <SID>BufcloseCloseIt()
    endif
 endfunction
 
+cnoremap <C-P> <Up>
+cnoremap <C-N> <Down>
+
