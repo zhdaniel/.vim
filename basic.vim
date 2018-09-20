@@ -25,7 +25,10 @@ else
 endif
 
 set number
-set relativenumber
+try
+    set relativenumber
+catch
+endtry
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -352,4 +355,21 @@ endfunction
 
 cnoremap <C-P> <Up>
 cnoremap <C-N> <Down>
+
+" Toggle column ruler
+let g:ruler = 0
+function ToggleRuler()
+    :if g:ruler == 0
+        let g:ruler = 1
+        set colorcolumn = 80
+        highlight ColorColumn ctermbg = 0 guibg = lightgrey
+    :else
+        let g:ruler = 1
+        set colorcolumn =
+    :endif
+endfunction
+command Ruler :call ToggleRuler()
+
+" Global variables
+let g:HOME = expand("~")
 

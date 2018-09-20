@@ -1,10 +1,12 @@
 set runtimepath+=~/.vim
 
-source ~/.vim/basic.vim
-source ~/.vim/plugins.vim
-
 try
+    source ~/.vim/basic.vim
+    source ~/.vim/plugins.vim
+
+    source ~/.vim/header.vim
     source ~/.vim/local.vim
-catch
+catch /./
+    echo 'Caught exception: '.v:exception
 endtry
 
