@@ -25,10 +25,9 @@ else
 endif
 
 set number
-try
+if exists("+relativenumber")
     set relativenumber
-catch
-endtry
+endif
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -89,6 +88,7 @@ let g:mapleader = ","
 
 " Fast saving
 nmap <leader>w :w!<cr>
+
 
 " :W sudo saves the file 
 " (useful for handling the permission-denied error)

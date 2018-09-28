@@ -1,4 +1,11 @@
-set termencoding=cp936
+colorscheme desert
+
+if exists("$_GBK_") && !exists("$TMUX")
+    set termencoding=cp936
+else
+    set termencoding=utf-8
+endif
+
 set fileencodings=ucs-bom,utf-8,cp936,gb2312,gbk,gb18030,latin1
 set nowrap
 
