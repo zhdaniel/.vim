@@ -18,7 +18,7 @@ elseif executable("g++")
 endif
 
 let g:syntastic_c_compiler_options   = '-std=c99'
-let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libc++'
+let g:syntastic_cpp_compiler_options = '-std=c++11'
 
 let s:locals = [ "libevent", "boost", "protoc", "mysql", "php" ]
 for i in s:locals
@@ -32,6 +32,11 @@ for i in s:locals
     if !exists("g:syntastic_c_include_dirs")
         let g:syntastic_c_include_dirs = []
     endif
+    if !exists("g:syntastic_cpp_include_dirs")
+        let g:syntastic_cpp_include_dirs = []
+    endif
+
     let g:syntastic_c_include_dirs = add(g:syntastic_c_include_dirs, dir)
+    let g:syntastic_cpp_include_dirs = add(g:syntastic_cpp_include_dirs, dir)
 endfor
 
