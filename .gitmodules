@@ -28,3 +28,6 @@
 [submodule "third-party/fencview"]
 	path = third-party/fencview
 	url = https://github.com/mbbill/fencview.git
+[submodule "third-party/rust.vim"]
+	path = third-party/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git

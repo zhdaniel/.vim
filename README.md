@@ -3,8 +3,11 @@
 ## Plugins
 
 + auto-pairs
++ ctrlp
++ fencview
 + lightline
 + nginx
++ rust.vim
 + supertab
 + syntastic
 + tabular
