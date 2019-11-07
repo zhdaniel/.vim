@@ -13,3 +13,4 @@
 + tabular
 + vim-go
 + vim-pathogen
++ editorconfig
