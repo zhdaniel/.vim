@@ -34,3 +34,9 @@
 [submodule "third-party/editorconfig"]
 	path = third-party/editorconfig
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "third-party/vim-clang-format"]
+	path = third-party/vim-clang-format
+	url = https://github.com/rhysd/vim-clang-format.git
+[submodule "third-party/vim-operator-user"]
+	path = third-party/vim-operator-user
+	url = https://github.com/kana/vim-operator-user.git

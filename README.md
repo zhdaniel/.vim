@@ -14,3 +14,6 @@
 + vim-go
 + vim-pathogen
 + editorconfig
++ vim-clang-format
++ vim-operator-user
+
